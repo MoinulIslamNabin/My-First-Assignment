@@ -3,9 +3,17 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+*{
+    margin: 0%;
+}
+
+/* nav styles */
+
 nav {
     display: flex;
 }
+
 .download-btn {
     display: flex;
     flex-direction: row;
@@ -31,4 +39,93 @@ nav {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+/* hero styles*/
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+    /* bg styles */
+
+    background-image: url(../assets/Hero-bg.png);
+    position: absolute;
+    width: 1349.4px;
+    height: 618px;
+    left: 0;
+    right: 0;
+    top: 124px;
+    bottom: 4230px;
+}
+
+/*img grp styles */
+
+.img-group {
+    margin: 24px 569px 30px;
+}
+
+/* section title styles */
+
+.section-title {
+    position: static;
+    width: 998px;
+    height: 136px;
+    color: rgb(13, 19, 33);
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 65px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* title description styles */
+
+.title-description {
+    position: static;
+    width: 808px;
+    height: 50px;
+    margin: 22px 0px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* contact button styles */
+
+.contact-btn {
+    position: static;
+    width: 196px;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 24px;
+
+    margin: 30px 0px;
+
+    border-radius: 6px;
+
+    background: rgb(13, 19, 33);
+
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+
+   
+
+
+
+
 }
