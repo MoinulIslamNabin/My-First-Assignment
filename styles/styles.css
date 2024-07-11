@@ -483,7 +483,7 @@
     position: static;
     width: 120px;
     height: 58px;
-
+    cursor: pointer;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -555,4 +555,8 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+ 
+button {
+    cursor: pointer;
 }
