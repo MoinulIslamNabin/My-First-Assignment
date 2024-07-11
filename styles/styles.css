@@ -293,7 +293,7 @@
 }
 
 .video {
-    /* Rectangle 1 */
+    
     position: static;
     width: 1020px;
     height: 550px;
@@ -544,29 +544,7 @@
     height: 36px;
     margin: 32px 0px;
 }
-
-.icons {
-
-    /* position: static;
-    width: 157.01px;
-    height: 36px;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-
-
-    
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 0px 10px; */
-}
-
 .footer-text {
-
     position: static;
     width: 450px;
     height: 24px;
